@@ -1,0 +1,28 @@
+# Core web scraping and browser automation
+selenium>=4.15.0
+
+# Data manipulation and Excel processing
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# HTML parsing and web scraping utilities
+beautifulsoup4>=4.12.0
+
+# HTTP utilities (dependency of beautifulsoup4, explicit for URL parsing)
+urllib3>=2.0.0
+
+# Time utilities (built-in, but listing for clarity)
+# time - built-in module
+# re - built-in module  
+# json - built-in module
+# os - built-in module
+
+# Additional recommended packages for better compatibility
+# Web driver manager (optional but recommended for easier ChromeDriver management)
+webdriver-manager>=4.0.0
+
+# Requests (useful for additional HTTP functionality if needed)
+requests>=2.31.0
+
+# Lxml parser (faster XML/HTML parsing, recommended for BeautifulSoup)
+lxml>=4.9.0

@@ -691,7 +691,7 @@ class ZameenScraper:
 def main():
     """Main function"""
     # Configuration - UPDATE THESE PATHS AND SETTINGS
-    EXCEL_FILE_PATH = r"C:\Users\hp\Desktop\zameen.xlsx"  # Your Excel file path
+    EXCEL_FILE_PATH = "zameen.xlsx"  # Your Excel file path
     AREA_COLUMN = "B"        # Column B: Area/society names (FIRST search bar)
     LOCATION_COLUMN = "A"    # Column A: Specific locations (SECOND search bar)
     LAT_OUTPUT_COLUMN = "C"  # Where to write latitude
